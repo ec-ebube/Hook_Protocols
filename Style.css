@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap");
+}
+
+/* @font-face {
+    font-family: "rubik2";
+    src: url("https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap");
+} */
+
+body {
+  background-color: #4a20ee;
+  font-family: "Rubik", sans-serif;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainbody {
+  min-width: 70%;
+  /* padding-left: 15vw;
+    padding-right: 15vw; */
+}
+
+.header {
+  padding: 1vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav {
+  min-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn1 {
+  margin-right: 0 auto;
+  height: 6vh;
+  background-color: inherit;
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+
+.img1 {
+  max-width: 70%;
+}
+
+.sect1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  /* min-height: 100vh; */
+}
+
+.sect1text {
+  text-align: center;
+  max-width: 80%;
+  color: #fff;
+}
+
+.sect1text h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.sect1text p {
+  font-weight: lighter;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.for2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 100%;
+}
+
+.sect2 {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.uppersect2 {
+  border: 1px solid rgb(170, 167, 167);
+  border-radius: 7px;
+  padding: 1vh;
+  /* height: 200px; */
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.uppersect2:hover {
+  transform: scale(1.1);
+}
+
+.sect2img {
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  max-width: 100%;
+}
+
+.img2,
+.img3 {
+  width: 3.5rem;
+  margin-right: 10%;
+}
+
+.sect2tri {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.textimg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sect2text {
+  text-align: left;
+  padding-left: 4%;
+}
+
+.tenK {
+  font-weight: bolder;
+  font-size: 2.5vw;
+  color: #ffffff49;
+}
+.tenK span {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.3vw;
+}
+.arb {
+  font-weight: bolder;
+}
+
+.sect2text h2 {
+  font-weight: 800;
+  font-size: 2.2vw;
+  /* height: 5px; */
+}
+
+.forbtns {
+  align-items: center;
+  width: 100%;
+}
+
+.btns {
+  margin: 0 auto;
+  display: block;
+  height: 45px;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: inherit;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 1px 1px 1px #23252362;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btns:hover {
+  transform: scale(1.1);
+}
+
+.sect3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sect3p1,
+.sect3p2 {
+  width: 100%;
+  color: #fff;
+}
+
+.sect3p1 {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.sect3p2 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+/* //////////////////////////The Modal/////////////////////////////////////////// */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+}
+.modalContent {
+  background-color: #fefefe;
+  margin: 15% auto; /* Center the modal on the screen */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 36%;
+}
+/* CSS styles for the close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modalImg1,
+.modalImg2,
+.modalImg3 {
+  border: 2px solid #4a20ee;
+  border-radius: 2rem;
+  width: 100%;
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+.modalImg1:hover,
+.modalImg2:hover,
+.modalImg3:hover {
+  transform: scale(1.05);
+}
+.modimg4 {
+  height: 15vh;
+}
+.modimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  min-width: 100%;
+  text-align: center;
+}
+
+.modimg2 {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.modText {
+  /* font-size: ; */
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+.modText1 {
+  color: #000;
+  /* background-color: chocolate; */
+}
+.noUnderline {
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+}
+
+/* ///////////////////////The media screen /////////////////////// */
+@media (max-width: 620px) {
+  .img2,
+  .img3 {
+    width: 2.8rem;
+    margin-right: 0;
+  }
+  .modText1 {
+    font-size: 3vw;
+  }
+  .modalContent {
+    width: 80%;
+    height: 60vh;
+  }
+}
