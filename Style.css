@@ -9,7 +9,7 @@
 } */
 
 body {
-  background-color: #4a20ee;
+  background-color: #7c6e7f;
   font-family: "Rubik", sans-serif;
   /* display: flex; */
   justify-content: center;
@@ -61,7 +61,8 @@ body {
 }
 
 .img1 {
-  max-width: 70%;
+  max-width: 60%;
+  width: 70vh;
 }
 
 .sect1 {
@@ -137,6 +138,9 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   width: 250px;
+}
+.sect2img2{
+  width: 5.5rem;
 }
 
 .textimg {
@@ -254,7 +258,7 @@ body {
 .modalImg1,
 .modalImg2,
 .modalImg3 {
-  border: 2px solid #4a20ee;
+  border: 2px solid #7c6e7f;
   border-radius: 2rem;
   width: 100%;
   margin-bottom: 3vh;
@@ -317,5 +321,8 @@ body {
   .modalContent {
     width: 80%;
     height: 60vh;
+  }
+  .sect2img{
+    display: block;
   }
 }
