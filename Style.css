@@ -139,7 +139,7 @@ body {
   flex-wrap: wrap;
   width: 250px;
 }
-.sect2img2{
+.sect2img2 {
   width: 5.5rem;
 }
 
@@ -307,6 +307,47 @@ body {
   text-decoration: none;
   transition: font-size 0.3s ease;
 }
+/* =================================================Second Page=========================================== */
+/* .claimRewards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.outcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textarea {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.import {
+  margin-top: 10px;
+} */
+/* .claimRewards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.outcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.claimRewards {
+  display: block;
+  /* Add any other styles you need for the .claimRewards class */
+}
 
 /* ///////////////////////The media screen /////////////////////// */
 @media (max-width: 620px) {
@@ -322,7 +363,7 @@ body {
     width: 80%;
     height: 60vh;
   }
-  .sect2img{
+  .sect2img {
     display: block;
   }
 }
